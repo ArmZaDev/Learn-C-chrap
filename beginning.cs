@@ -17,9 +17,9 @@ namespace beginning
 
             //Set display order with braces
             Console.WriteLine("FirstName: {0} LastName: {1}", "Nobpharat", "Pongdong");               
-            Console.WriteLine("{0} + {2} = {1}, "50", "80", "30");
-            Console.ReadKey(); 
-                           
+            Console.WriteLine("{0} + {2} = {1}", 50, 80, 30);
+            Console.ReadKey();
+
             //Variable 
             int myNum = 26;
             double myDoubleNum = 10.99D;
@@ -35,7 +35,7 @@ namespace beginning
             Console.WriteLine("string = " + myString);
             Console.WriteLine("const = " + MyNum);
             Console.ReadKey();
-            
+
             //format string
             int number = 120000;
             Console.WriteLine("Number = {0}", number);
@@ -46,7 +46,7 @@ namespace beginning
             Console.WriteLine("Number = {0:P}", number); //%
             Console.WriteLine("Number = {0:X}", number); //Hex
             Console.ReadKey();
-           
+
             //input values ​​on keyboard
             Console.Write("UserName: ");
             string username = Console.ReadLine();
@@ -56,7 +56,7 @@ namespace beginning
             Console.Write("Aa-Zz to ASCII Code: ");
             int Ascii = Console.Read();
             Console.WriteLine("Ascii = " + Ascii);
-
+            Console.ReadKey();
 
         }
     }
