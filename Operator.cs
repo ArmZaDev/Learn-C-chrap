@@ -36,15 +36,15 @@ namespace Operator
             //Operator comparison of type boolean
             int num1 = 60, num2 = 100;
 
-            Console.WriteLine(num1 == num2); //60 เท่ากับ 100?
-            Console.WriteLine(num1 != num2); //60 ไม่เท่ากับ 100?
-            Console.WriteLine(num1 > num2); //60 มากกว่า 100?
-            Console.WriteLine(num1 < num2); //60 น้อยกว่า 100?
-            Console.WriteLine(num1 >= num2); //60 มากกว่าเท่ากับ 100?
-            Console.WriteLine(num1 <= num2); //60 น้อยกว่าเท่ากับ 100?
+            Console.WriteLine(num1 == num2); 
+            Console.WriteLine(num1 != num2); 
+            Console.WriteLine(num1 > num2); 
+            Console.WriteLine(num1 < num2); 
+            Console.WriteLine(num1 >= num2); 
+            Console.WriteLine(num1 <= num2); 
             Console.ReadKey();
 
-            //Operator เพิ่มค่า++ 
+            //Operator ++ 
             int a = 20, b = 10;
             Console.WriteLine("a = {0}", a);
             Console.WriteLine("Prefix = {0}", ++a); //Prefix 
@@ -56,7 +56,7 @@ namespace Operator
             Console.WriteLine("Last a = {0}", a);
 
 
-            //Operator ลดค่า--
+            //Operator --
             Console.WriteLine("b = {0}", b);
             Console.WriteLine("Prefix = {0}", --b); //Prefix 
             Console.WriteLine("Last b = {0}", b + "\n");
