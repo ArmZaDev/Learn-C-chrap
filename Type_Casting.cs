@@ -20,8 +20,8 @@ namespace Type_Casting
             short myShort = Convert.ToInt16(MyString);
             int myInt = Convert.ToInt32(MyString);
             long myLong = Convert.ToInt64(MyString);
-            float myFloat = Convert.ToSingle(MyString); //·È¹ÔÂÁ
-            double myDouble = Convert.ToDouble(MyString); //·È¹ÔÂÁ
+            float myFloat = Convert.ToSingle(MyString); 
+            double myDouble = Convert.ToDouble(MyString);
             string result = Convert.ToString(myDouble);
 
             Console.WriteLine("Byte = {0}", myByte + MyInt);
