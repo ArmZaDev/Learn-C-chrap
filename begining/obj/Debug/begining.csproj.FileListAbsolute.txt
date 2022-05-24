@@ -1,0 +1,8 @@
+C:\Users\ArmZaTV\source\repos\begining\begining\bin\Debug\begining.exe.config
+C:\Users\ArmZaTV\source\repos\begining\begining\bin\Debug\begining.exe
+C:\Users\ArmZaTV\source\repos\begining\begining\bin\Debug\begining.pdb
+C:\Users\ArmZaTV\source\repos\begining\begining\obj\Debug\begining.csproj.AssemblyReference.cache
+C:\Users\ArmZaTV\source\repos\begining\begining\obj\Debug\begining.csproj.SuggestedBindingRedirects.cache
+C:\Users\ArmZaTV\source\repos\begining\begining\obj\Debug\begining.csproj.CoreCompileInputs.cache
+C:\Users\ArmZaTV\source\repos\begining\begining\obj\Debug\begining.exe
+C:\Users\ArmZaTV\source\repos\begining\begining\obj\Debug\begining.pdb
