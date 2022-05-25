@@ -295,6 +295,56 @@ namespace Funny1
             }
    
             Console.ReadKey();
+            
+            
+            //For Loops
+            for(int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
+            //For Loops in Arrays
+            int[] luckyNumber2 = { 4, 8, 15, 16, 23, 42 };
+            for (int i = 0; i < luckyNumber2.Length; i++)
+            {
+                Console.WriteLine(luckyNumber2[i]);
+            }
+            
+            
+            //Building an Exponent Method
+            Console.WriteLine(GetPow(3, 2));
+            Console.ReadKey();
+            
+            
+            //2d Arrays
+            int[,] numberGrid = {
+                {1, 2 },
+                {3, 4 },
+                {5, 6 }
+            };
+            Console.WriteLine(numberGrid[0,0]);
+            Console.WriteLine(numberGrid[1,0]);
+            Console.ReadKey();
+            
+            
+            //Exception Handling
+            try
+            {
+                Console.Write("Enter a number: ");
+                int number1 = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter another number: ");
+                int number2 = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine(number1 / number2);
+            }
+            catch(DivideByZeroException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch(FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            Console.ReadKey();
 
         }
         //Methods
@@ -368,6 +418,18 @@ namespace Funny1
             }
 
             return dayName;
+        }
+        
+        //Building an Exponent Method
+        static int GetPow(int baseNum, int powNum)
+        {
+            int result = 1;
+
+            for(int i = 0; i < powNum; i++)
+            {
+                result *= baseNum;
+            }
+            return result;
         }
 
         
