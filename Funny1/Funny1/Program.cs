@@ -18,7 +18,7 @@ namespace Funny1
             Console.WriteLine("  /   |");
             Console.WriteLine(" /____|");
             */
-            /*
+            
             //Variable
             string charecterName = "Yousuke";
             int charecterAge;
@@ -31,16 +31,16 @@ namespace Funny1
             Console.WriteLine("He really like the name " + charecterName);
             Console.WriteLine("But did't like being " + charecterAge);
             Console.ReadKey();
-            */
-            /*
+            
+            
             //Data Types
             string phrase = "Whiteblack Academy";
             char grade = 'A';
             int age = 30;
             double gpa = 3.3;
             bool isMale = true;
-            */
-            /*
+           
+           
             //Working With Strings
             string Aca = "Whiteblack Academy";
             Console.WriteLine("White\nblack Academy");
@@ -50,8 +50,8 @@ namespace Funny1
             Console.WriteLine( Aca.Substring(Aca.IndexOf("Academy")) );
             Console.WriteLine("Uper = {0} \nLower = {1}", Aca.ToUpper(), Aca.ToLower());
             Console.ReadLine();
-            */
-            /*
+            
+            
             //Working With Number
             int num = -26;
             
@@ -64,8 +64,8 @@ namespace Funny1
             Console.WriteLine(Math.Min(6, 2));
             Console.WriteLine(Math.Round(2.0));
             Console.ReadLine();
-            */
-            /*
+            
+            
             //Getting User input
             Console.Write("Enter your name: ");
             string name = Console.ReadLine();
@@ -73,8 +73,8 @@ namespace Funny1
             string age = Console.ReadLine();
             Console.WriteLine("Hello " + name + " you are " + age);
             Console.ReadKey();
-            */
-            /*
+            
+            
             //Building a Calculator
             Console.Write("Enter a number: ");
             int num1 = Convert.ToInt32(Console.ReadLine());
@@ -83,8 +83,8 @@ namespace Funny1
 
             Console.WriteLine("Result = {0}",num1 + num2);
             Console.ReadKey();
-            */
-            /*
+            
+            
             //Building a Mad Lib
             string color, pluraNoun, celebrity;
 
@@ -99,8 +99,8 @@ namespace Funny1
             Console.WriteLine(pluraNoun + " are blue");
             Console.WriteLine("I Love " + celebrity);
             Console.ReadLine();
-            */
-            /*
+            
+            
             //Arrays
             int[] luckyNumber = { 4, 8, 15, 16, 23, 42 };
             string[] friends = new string[2];
@@ -110,8 +110,8 @@ namespace Funny1
             luckyNumber[2] = 80;
 
             Console.WriteLine(luckyNumber[0]);
-            */
-            /*
+            
+            
             //Methods      
             SayHi01();
 
@@ -119,14 +119,14 @@ namespace Funny1
             SayHi02("John", 21);
             SayHi02("Tom", 15);
             Console.ReadLine();
-            */
-            /*
+            
+            
             //Return Statement
             Console.WriteLine(cube(5));
             int cubeNumber = cube(6);
             Console.WriteLine(cubeNumber);
             Console.ReadKey();
-            */
+            
 
             //If Statement
             /* If I'm hungry
@@ -143,7 +143,7 @@ namespace Funny1
                     I bring sunglasses
              */
             
-            /*
+            
             bool isMale = true;
 
             if (isMale)
@@ -155,8 +155,8 @@ namespace Funny1
                 Console.WriteLine("You are not male");//T
             }
             Console.ReadKey();
-            */
-            /*
+            
+            
             isMale = true;
             bool isTall = true;
             if(isMale && isTall)
@@ -168,8 +168,8 @@ namespace Funny1
                 Console.WriteLine("You are either not male or not tall or both"); //T & F , F & F
             }
             Console.ReadKey();
-            */
-            /*
+            
+            
             isMale = false;
             isTall = false;
             if (isMale || isTall)
@@ -181,8 +181,8 @@ namespace Funny1
                 Console.WriteLine("You are either not male or not tall or both");
             }
             Console.ReadKey();
-            */
-            /*
+            
+            
             isMale = false;
             isTall = false;
             if (isMale && isTall)
@@ -201,7 +201,65 @@ namespace Funny1
                 Console.WriteLine("You are not male and not tall");//F & F
             }
             Console.ReadKey();
-            */
+            
+            //if Statements (con't)
+            Console.WriteLine(GetMax(6, 7, 200));
+            Console.ReadKey();
+            
+
+            //Building a Better Calculator
+            Console.Write("Enter a number: ");
+            double Num1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Opetor: ");
+            string Op = Console.ReadLine();
+
+            Console.Write("Enter a number: ");
+            double Num2 = Convert.ToDouble(Console.ReadLine());
+            if (Op == "+")
+            {
+                Console.WriteLine(Num1 + Num2);
+            }
+            else if (Op == "-")
+            {
+                Console.WriteLine(Num1 - Num2);
+            }
+            else if (Op == "/")
+            {
+                Console.WriteLine(Num1 / Num2); 
+            }
+            else if (Op == "*")
+            {
+                Console.WriteLine(Num1 * Num2);
+            }
+            else
+            {
+                Console.WriteLine("Invalid Operator");
+            }
+            Console.ReadKey();
+
+
+            //Switch Statement Method GetDay
+            Console.WriteLine(GetDay(2));
+            Console.ReadKey();
+
+
+            //While Loops
+            int index = 1;
+            while (index <= 5)
+            {
+                Console.WriteLine(index);
+                index++;
+            }
+            Console.ReadKey();
+
+            //Do While
+            index = 6;
+            do
+            {
+                Console.WriteLine(index); //One Time
+                index++;
+            }while (index <= 5);
 
         }
         //Methods
@@ -220,6 +278,61 @@ namespace Funny1
         {
             int result = num * num * num;
             return result;
+        }
+        
+        //if Statements (con't)
+        static int GetMax(int num1, int num2, int num3)
+        {
+            int result = 0;
+            if (num1 >= num2 && num1 >= num3)
+            {
+                result = num1;
+            }
+            else if(num2 >= num1 && num2 >= num3)
+            {
+                result = num2;
+            }
+            else
+            {
+                result = num3;
+            }
+            return result;
+        }
+
+        //Switch Statement method GetDay
+        static string GetDay(int dayNum)
+        {
+            string dayName;
+
+            switch (dayNum)
+            {
+                case 0: 
+                    dayName = "Sunday";
+                    break;
+                case 1: 
+                    dayName = "Monday";
+                    break;
+                case 2: 
+                    dayName = "Tuesday";
+                    break;
+                case 3:
+                    dayName = "Wednesday";
+                    break;
+                case 4:
+                    dayName = "Thursday";
+                    break;
+                case 5:
+                    dayName = "Friday";
+                    break;
+                case 6:
+                    dayName = "Saturday";
+                    break;
+                default:
+                    dayName = "Invalid Day Number";
+                    break;
+            }
+
+            return dayName;
         }
 
         
