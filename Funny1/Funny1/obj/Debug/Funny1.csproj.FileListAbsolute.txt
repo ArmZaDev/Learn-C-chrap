@@ -1,0 +1,8 @@
+C:\Users\ArmZaTV\Documents\My C# Learning\Funny1\Funny1\bin\Debug\Funny1.exe.config
+C:\Users\ArmZaTV\Documents\My C# Learning\Funny1\Funny1\bin\Debug\Funny1.exe
+C:\Users\ArmZaTV\Documents\My C# Learning\Funny1\Funny1\bin\Debug\Funny1.pdb
+C:\Users\ArmZaTV\Documents\My C# Learning\Funny1\Funny1\obj\Debug\Funny1.csproj.AssemblyReference.cache
+C:\Users\ArmZaTV\Documents\My C# Learning\Funny1\Funny1\obj\Debug\Funny1.csproj.SuggestedBindingRedirects.cache
+C:\Users\ArmZaTV\Documents\My C# Learning\Funny1\Funny1\obj\Debug\Funny1.csproj.CoreCompileInputs.cache
+C:\Users\ArmZaTV\Documents\My C# Learning\Funny1\Funny1\obj\Debug\Funny1.exe
+C:\Users\ArmZaTV\Documents\My C# Learning\Funny1\Funny1\obj\Debug\Funny1.pdb
