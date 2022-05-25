@@ -142,6 +142,66 @@ namespace Funny1
                otherwise
                     I bring sunglasses
              */
+            
+            /*
+            bool isMale = true;
+
+            if (isMale)
+            {
+                Console.WriteLine("You are male"); //T
+            }
+            else
+            {
+                Console.WriteLine("You are not male");//T
+            }
+            Console.ReadKey();
+            */
+            /*
+            isMale = true;
+            bool isTall = true;
+            if(isMale && isTall)
+            {
+                Console.Write("You are a tall male"); //T & T
+            }
+            else
+            {
+                Console.WriteLine("You are either not male or not tall or both"); //T & F , F & F
+            }
+            Console.ReadKey();
+            */
+            /*
+            isMale = false;
+            isTall = false;
+            if (isMale || isTall)
+            {
+                Console.Write("You are a tall male"); 
+            }
+            else
+            {
+                Console.WriteLine("You are either not male or not tall or both");
+            }
+            Console.ReadKey();
+            */
+            /*
+            isMale = false;
+            isTall = false;
+            if (isMale && isTall)
+            {
+                Console.Write("You are a tall male"); // T & T
+            }else if(isMale && !isTall)
+            {
+                Console.Write("You are a short male");//T & F
+            }
+            else if (!isMale && isTall)
+            {
+                Console.Write("You are not a male but you are tall"); //F & T
+            }
+            else
+            {
+                Console.WriteLine("You are not male and not tall");//F & F
+            }
+            Console.ReadKey();
+            */
 
         }
         //Methods
