@@ -345,6 +345,81 @@ namespace Funny1
                 Console.WriteLine(e.Message);
             }
             Console.ReadKey();
+            
+            
+            // Classes & Objects >Books<
+            Book book1 = new Book();
+            book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1.pages = 400;
+
+            Book book2 = new Book();
+            book2.title = "Lord Of the Rings";
+            book2.author = "Tolkein";
+            book2.pages = 700;
+
+            Console.WriteLine(book1.title);
+            Console.WriteLine(book2.author);
+            Console.ReadKey();
+            
+            
+            //Constructors
+            Book book1 = new Book("Harry Potter", "JK Rowling", 400);
+            Book book2 = new Book("Lord Of the Rings", "Tolkein", 700);
+
+            book2.title = "The hobbit";
+            Console.WriteLine(book2.author);
+            Console.ReadKey();
+            
+            
+            //Object Methods
+            Student student1 = new Student("Jim", "Business", 2.8);
+            Student student2 = new Student("Pam", "Art", 3.6);
+
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
+            Console.ReadKey();
+            
+            
+            //Getters & Setters
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Adam Adason", "PG");
+
+            Console.WriteLine(avengers.rating);
+            Console.ReadKey();
+            
+            
+            //Static Class Attributes
+            Song holiday = new Song("Holiday", "Green day", 200);
+            Console.WriteLine(Song.songCount);
+            Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            Console.WriteLine(kashmir.getSongCount());
+            //Console.WriteLine(Song.songCount);
+
+            //Console.WriteLine(holiday.artist);
+            //Console.WriteLine(kashmir.artist);
+
+            Console.ReadKey();
+            
+            
+            //Static Methods & Classes
+            UsefulTools toolr = new UsefulTools();
+            UsefulTools.SayHi("Mkie");
+            //Console.WriteLine(Math.Sqrt(144));
+
+            Console.ReadKey();
+            
+            
+            //Inheritance
+            //class Chef
+            Chef chef = new Chef();
+            chef.MakeChicken();
+
+            //class ItalianChef : Chef
+            ItalianChef italianChef = new ItalianChef();
+            italianChef.MakePasta();
+
+            Console.ReadKey();
 
         }
         //Methods
