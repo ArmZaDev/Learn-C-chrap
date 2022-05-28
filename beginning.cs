@@ -11,12 +11,12 @@ namespace beginning
         static void Main(string[] args)
         {
             //(Wirte/WriteLine)
-            Console.Write("KesukeTakoyaki");
+            Console.Write("Takoyaki");
             Console.WriteLine("SobaNoodle");
             Console.ReadKey();
 
             //Set display order with braces
-            Console.WriteLine("FirstName: {0} LastName: {1}", "Nobpharat", "Pongdong");               
+            Console.WriteLine("FirstName: {0} LastName: {1}", "Nob", "P");               
             Console.WriteLine("{0} + {2} = {1}", 50, 80, 30);
             Console.ReadKey();
 
@@ -47,7 +47,7 @@ namespace beginning
             Console.WriteLine("Number = {0:X}", number); //Hex
             Console.ReadKey();
 
-            //input values ​​on keyboard
+            //input values on keyboard
             Console.Write("UserName: ");
             string username = Console.ReadLine();
             Console.Write("Password: ");            
