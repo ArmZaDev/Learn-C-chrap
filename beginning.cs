@@ -57,7 +57,7 @@ namespace beginning
             int Ascii = Console.Read();
             Console.WriteLine("Ascii = " + Ascii);
             Console.ReadKey();
-
+            
         }
     }
 }
